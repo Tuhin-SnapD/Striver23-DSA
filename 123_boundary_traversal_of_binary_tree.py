@@ -1,0 +1,56 @@
+"""
+Preorder Traversal
+
+Perform preorder traversal of binary tree (Root, Left, Right).
+
+Time Complexity: O(n)
+Space Complexity: O(n) for recursion stack
+"""
+
+from typing import List, Optional
+
+
+class TreeNode:
+    """Definition for binary tree node."""
+    
+    def __init__(
+        self,
+        val: int = 0,
+        left: Optional['TreeNode'] = None,
+        right: Optional['TreeNode'] = None
+    ):
+        self.val = val
+        self.left = left
+        self.right = right
+
+
+def preorder(root: Optional[TreeNode], result: List[int]) -> None:
+    """
+    Perform preorder traversal recursively.
+    
+    Args:
+        root: Root of binary tree
+        result: List to store traversal result
+    """
+    if root is None:
+        return
+    
+    result.append(root.val)    # Visit root
+    preorder(root.left, result)   # Traverse left subtree
+    preorder(root.right, result)  # Traverse right subtree
+
+
+def get_preorder_traversal(root: Optional[TreeNode]) -> List[int]:
+    """
+    Get preorder traversal of binary tree.
+    
+    Args:
+        root: Root of binary tree
+        
+    Returns:
+        List containing preorder traversal
+    """
+    result = []
+    preorder(root, result)
+    return result
+
