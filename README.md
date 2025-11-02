@@ -26,7 +26,6 @@ This repository contains solutions to **Striver's SDE Sheet** problems, one of t
 ### 📖 Official Resources
 
 - **Official SDE Sheet**: [https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
-- **Original Repository**: [https://github.com/Tuhin-SnapD/Striver23-DSA](https://github.com/Tuhin-SnapD/Striver23-DSA)
 
 ## 📚 Topics Covered
 
@@ -387,7 +386,7 @@ This repository contains solutions to **Striver's SDE Sheet** problems, one of t
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Tuhin-SnapD/Striver23-DSA
    cd done
    ```
 
@@ -402,19 +401,6 @@ This repository contains solutions to **Striver's SDE Sheet** problems, one of t
    - Understand the approach and algorithm
    - Check the time and space complexity
    - Run the code and test with different inputs
-
-### Study Plan Recommendation
-
-1. **Week 1-2:** Arrays & Mathematics (1-24)
-2. **Week 3:** Linked Lists (25-38)
-3. **Week 4:** Greedy Algorithm & Recursion (39-60)
-4. **Week 5:** Binary Search & Heaps (61-74)
-5. **Week 6:** Stacks & Queues (75-91)
-6. **Week 7:** String Algorithms (92-103)
-7. **Week 8-9:** Binary Trees & BSTs (104-150)
-8. **Week 10-11:** Graphs (151-169)
-9. **Week 12:** Dynamic Programming (170-184)
-10. **Week 13:** Tries (185-191)
 
 ## 📝 Problem Format
 
